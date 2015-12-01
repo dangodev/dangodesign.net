@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Refresh" content="10" />
+<title>the.:digital::artist</title>
+<style>
+html, body, div {margin:0;padding:0;}
+#pixel div {width:8px;height:8px;float:left;}
+</style>
+</head>
+
+<body>
+<div id="pixel" style="margin:0 auto">
+<script type="text/javascript">
+var rnum = gen256();
+var gnum = gen256();
+var bnum = gen256();
+var hexr = hex(rnum);
+var hexg = hex(gnum);
+var hexb = hex(bnum);
+var colr = new Array();
+var colg = new Array();
+var colb = new Array();
+if(navigator.appName == 'Microsoft Internet Explorer') {
+	var winx = document.documentElement.clientWidth;
+	var winy = document.documentElement.clientHeight;
+} else {
+	var winx = window.innerWidth;
+	var winy = window.innerHeight;
+}
+winy = winy - 16;
+wrap = document.getElementById('pixel');
+wrap.style.width = winx + 'px';
+var bg = '#' + hexr + hexg + hexb;
+document.body.style.backgroundColor = bg;
+var cols = Math.floor(winx / 8);
+var rows = Math.floor(winy / 8);
+
+for(z = 0;z < cols;z++) {
+	colr[z] = rnum;
+	colg[z] = gnum;
+	colb[z] = bnum;
+}
+
+for(y = 0;y < rows;y++) {
+	for(x = 0;x < cols;x++) {
+		colr[x] = dice(colr[x]);
+		colg[x] = dice(colg[x]);
+		colb[x] = dice(colb[x]);
+		var hexr = hex(colr[x]);
+		var hexg = hex(colg[x]);
+		var hexb = hex(colb[x]);
+		var pixel = '<div style="background:#' + hexr + hexg + hexb + '"></div>';
+		document.write(pixel);
+	}
+}
+
+function gen256() {
+	var number = Math.floor(Math.random()*256);
+	return number;
+}
+
+function hex(number) {
+	var hex = number.toString(16);
+	if(hex.length == 1) {
+		hex = '0' + hex;
+	}
+	return hex;
+}
+
+function dice(number) {
+	var roll = Math.floor(Math.random()*2);
+	if(roll == 1) {
+		var roll2 = Math.floor(Math.random()*16);
+		number = number + roll2;
+	} else {
+		var roll2 = Math.floor(Math.random()*16);
+		number = number - roll2;
+	}
+	if(number < 0) {
+		number = 0;
+	} 
+	if(number > 255) {
+		number = 255;
+	}
+	return number;
+}
+</script>
+</div>
+</body>
+</html>

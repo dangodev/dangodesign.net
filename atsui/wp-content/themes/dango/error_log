@@ -1,0 +1,19 @@
+[23-Nov-2013 08:09:59] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[23-Nov-2013 08:10:00] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[23-Nov-2013 08:10:00] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[23-Nov-2013 08:10:00] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[16-Dec-2013 00:58:37] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[16-Dec-2013 00:58:38] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[16-Dec-2013 01:01:10] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[16-Dec-2013 01:01:10] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[22-Aug-2014 05:32:42] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[07-Feb-2015 03:58:02] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[07-Feb-2015 03:58:03] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[07-Feb-2015 03:58:09] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[07-Feb-2015 03:58:10] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[10-Mar-2015 02:05:55] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[10-Mar-2015 02:05:55] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[10-Mar-2015 02:06:02] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[10-Mar-2015 02:06:03] PHP Fatal error:  Call to undefined function  get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[20-Apr-2015 03:18:10 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/index.php on line 1
+[11-Oct-2015 08:55:02 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/dangodes/public_html/atsui/wp-content/themes/dango/404.php on line 1

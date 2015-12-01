@@ -1,0 +1,1 @@
+<form role="search" method="get" id="searchform" action="http://dangodesign.net/" ><div><input type="text" value="" placeholder="Search" name="s" id="s" /><input data-icon="&#xe605;" type="submit" id="searchsubmit" value="&#xe605;"></div></form>
